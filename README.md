@@ -7,7 +7,7 @@ This is a wrapper for screen recording on iOS with ReplayKit2.
 Screen recording is abstracted to a single function 
 
 ```
-ScreenRecordCoordinator().startRecording(withFileName: "1234", recordingHandler: { (error) in
+ScreenRecordCoordinator().startRecording(withFileName: "coolScreenRecording1", recordingHandler: { (error) in
             print("Recording in progress")
         }) { (error) in
             print("Recording Complete")

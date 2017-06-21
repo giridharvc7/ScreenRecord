@@ -22,8 +22,8 @@ class MasterViewController: UITableViewController {
         
         
         let screenRecord = ScreenRecordCoordinator()
-        
-        screenRecord.startRecording(withFileName: "1234", recordingHandler: { (error) in
+        let randomNumber = arc4random_uniform(9999);
+        screenRecord.startRecording(withFileName: "coolScreenRecording\(randomNumber)", recordingHandler: { (error) in
             print("Recording in progress")
         }) { (error) in
             print("Recording Complete")
