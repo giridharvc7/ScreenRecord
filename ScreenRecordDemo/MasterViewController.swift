@@ -20,11 +20,13 @@ class MasterViewController: UITableViewController {
         navigationItem.leftBarButtonItem = editButtonItem
         
         
+        
         let screenRecord = ScreenRecordCoordinator()
+        
         screenRecord.startRecording(withFileName: "1234", recordingHandler: { (error) in
-            
+            print("Recording in progress")
         }) { (error) in
-            
+            print("Recording Complete")
         }
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))

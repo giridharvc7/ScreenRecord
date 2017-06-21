@@ -25,9 +25,9 @@ class ScreenRecordCoordinator: NSObject
         
     }
     
-    func startRecording(withFileName fileName: String, recordingHandler: @escaping (Error?) -> Void, _ onCompletion: @escaping (Error?)->Void)
+    func startRecording(withFileName fileName: String, recordingHandler: @escaping (Error?) -> Void,onCompletion: @escaping (Error?)->Void)
     {
-          self.viewOverlay.show()
+        self.viewOverlay.show()
         screenRecorder.startRecording(withFileName: fileName) { (error) in
             recordingHandler(error)
             self.recordCompleted = onCompletion
