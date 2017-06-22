@@ -4,6 +4,8 @@ This is a wrapper for screen recording on iOS with ReplayKit2.
 </br>
 [Blog](https://medium.com/@giridharvc7/replaykit-screen-recording-8ee9a61dd762)
 
+![](http://imgur.com/Jv5ELbK)
+![](http://imgur.com/ZQn06yk)
 ## Usage
 
 Screen recording is abstracted to a single function 
