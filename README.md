@@ -1,6 +1,8 @@
 # ScreenRecord
 
 This is a wrapper for screen recording on iOS with ReplayKit2. 
+</br>
+[Blog](https://medium.com/@giridharvc7/replaykit-screen-recording-8ee9a61dd762)
 
 ## Usage
 
