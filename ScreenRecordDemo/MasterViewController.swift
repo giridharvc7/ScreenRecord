@@ -22,6 +22,7 @@ class MasterViewController: UITableViewController {
         
         
         let screenRecord = ScreenRecordCoordinator()
+        screenRecord.viewOverlay.stopButtonColor = UIColor.red
         let randomNumber = arc4random_uniform(9999);
         screenRecord.startRecording(withFileName: "coolScreenRecording\(randomNumber)", recordingHandler: { (error) in
             print("Recording in progress")
